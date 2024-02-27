@@ -22,6 +22,15 @@ for(int j = 0; j < n; j++)
 }
 Console.WriteLine(max);
 
+max = array[0];
+foreach(int e in array)
+{
+    if (e > max)
+    {
+        max = e;
+    }
+}
+Console.WriteLine(max);
 /*
 
 for (int i = 0; i < 10; i = i + 1)
